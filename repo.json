@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.8",
+    "AssemblyVersion": "0.1.0.9",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780281539",
-    "Changelog": "Applied the manual trace findings: AutoBuy now opens visible Market Board search result rows with the observed ItemSearch callback (int:5, rowIndex), preserves each result row index, and reads listing data when ListingCount is present even if WaitingForListings remains true."
+    "LastUpdate": "1780281988",
+    "Changelog": "Added a timeout for item listing requests that remain stuck loading with no returned listings. Items with no Market Board listings now advance to the next search result instead of leaving AutoBuy waiting indefinitely."
   }
 ]
