@@ -1,0 +1,33 @@
+[
+  {
+    "Author": "BlueWaveXIV",
+    "Name": "AutoBuy",
+    "InternalName": "AutoBuy",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "marketboard",
+      "buying",
+      "gear"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Buy underpriced gear sets from the Market Board.",
+    "AcceptsFeedback": true,
+    "IconUrl": "https://raw.githubusercontent.com/Ninethirty77/autobuy-repo/main/icon.jpg",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Ninethirty77/autobuy-repo/main/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Ninethirty77/autobuy-repo/main/latest.zip",
+    "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": "1780275926",
+    "Changelog": "Initial private AutoBuy deployment. Added editable gear keyword rules, a configurable max unit price, max purchases per run, optional HQ inclusion, and a supervised manually-started Market Board buying workflow."
+  }
+]
