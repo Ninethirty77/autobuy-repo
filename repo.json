@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.16",
+    "AssemblyVersion": "0.1.0.17",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780979102",
-    "Changelog": "Added Meteor to the allowed destination datacentre list. The destination menu now shows worlds from Elemental, Gaia, Mana, and Meteor."
+    "LastUpdate": "1780984858",
+    "Changelog": "Added 48-hour visited-world markers to the travel destination list. Worlds selected through the Travel button are shown in orange until their marker expires. Added a Clear visited button for manually clearing recent world markers."
   }
 ]
