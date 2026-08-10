@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.24",
+    "AssemblyVersion": "0.1.0.25",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1783211765",
-    "Changelog": "Inventory stocked markers now update when Refresh prices is pressed. Removed the separate Refresh inventory button while keeping inventory counts cached between refreshes."
+    "LastUpdate": "1786336492",
+    "Changelog": "Added Slow mode for laggy Market Board sessions. When enabled, AutoBuy waits five seconds after opening each item listing before reading prices; normal mode remains two seconds."
   }
 ]
