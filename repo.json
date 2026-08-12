@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.25",
+    "AssemblyVersion": "0.1.0.26",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1786336492",
-    "Changelog": "Added Slow mode for laggy Market Board sessions. When enabled, AutoBuy waits five seconds after opening each item listing before reading prices; normal mode remains two seconds."
+    "LastUpdate": "1786546434",
+    "Changelog": "Added armoury-section fullness detection. AutoBuy now skips a gear section once normal inventory is full and the matching armoury section is also full, covering Main Hand, Head, Body, Hands, Legs, Feet, Off Hand, Ears, Neck, Wrists, and Rings."
   }
 ]
