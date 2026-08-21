@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.38",
+    "AssemblyVersion": "0.1.0.39",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1787297878",
-    "Changelog": "Bargain trips now close Market Board windows after each world shopping run, return to Ul'dah Aetheryte Plaza, then request next-world travel or Back to Ravana. Storage-full completion follows the same close-window and plaza-return sequence."
+    "LastUpdate": "1787299506",
+    "Changelog": "Bargain trips now wait longer after the Sapphire Avenue Exchange aethernet request before asking Lifestream to run to the Market Board. The Market Board shortcut is retried for up to 90 seconds before falling back to manual Market Board selection."
   }
 ]
