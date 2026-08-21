@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.34",
+    "AssemblyVersion": "0.1.0.35",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1787294818",
-    "Changelog": "Added supervised Datacentre bargain trip mode. It travels through every configured world in the selected JP datacentre, forces Bargain mode while active, waits for the Market Board to be opened, runs AutoBuy, then advances to the next world. When storage for the selected buying scope is exhausted or all worlds are complete, it requests Back to Ravana and /logout."
+    "LastUpdate": "1787296019",
+    "Changelog": "Bargain trip mode now requests a Lifestream aethernet warp to Sapphire Avenue Exchange after arriving on each world. Added a TravelingToMarketArea trip state before WaitingForMarketBoard, so the Market Board wait begins only after the Sapphire Avenue warp has been requested and given time to complete."
   }
 ]
