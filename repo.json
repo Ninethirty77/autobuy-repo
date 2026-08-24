@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.41",
+    "AssemblyVersion": "0.1.0.42",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1787309657",
-    "Changelog": "Datacentre bargain trips now use fixed one-shot travel steps with explicit waits: 5 seconds after world arrival, one Sapphire Avenue Exchange warp request, 5 seconds after Sapphire, one Market Board run request, 3 seconds after the Market Board opens, 2 seconds after closing Market Board windows, and 3 seconds after the Ul'dah Aetheryte Plaza warp request. Repeated Sapphire and Market Board movement requests have been removed to prevent rapid command loops under lag."
+    "LastUpdate": "1787550202",
+    "Changelog": "Added North American destinations separated from Japanese destinations. Direct travel and datacentre bargain trips now include Japan/North America region selectors. Universalis Prices now includes a Price region selector for Japan or North America and uses Universalis' North-America API region for NA results."
   }
 ]
