@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoBuy",
     "InternalName": "AutoBuy",
-    "AssemblyVersion": "0.1.0.43",
+    "AssemblyVersion": "0.1.0.44",
     "Description": "Private Market Board helper that searches configured gear keywords and buys listings at or below a configurable gil cap.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autobuy-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1787691546",
-    "Changelog": "Added the separate /autobuy rewards Prize Fulfilment validation window for Studium Porter, with strict identity authorization, private queue loading, exact inventory preparation, route calibration, winner recognition, vnavmesh readiness, emergency stop, and read-only FC-chest/trade tracing. Production-changing fulfilment actions remain locked pending in-game validation."
+    "LastUpdate": "1787692653",
+    "Changelog": "Added editable, locally saved winner-greeting and post-trade message templates to Prize Fulfilment. The greeting supports a [NAME] placeholder with a live preview. Both messages are normalized to one line and bounded to 180 characters; actual chat sending remains locked pending in-game validation."
   }
 ]
